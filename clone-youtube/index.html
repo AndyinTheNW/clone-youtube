@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Youtube Clone</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+      <img src="logo.png" alt="YouTube Logo" class="youtube-logo" />
+    </a>
+    <form class="search-bar">
+      <input class="search-input" type="search" placeholder="Pesquisar" aria-label="Search" />
+      <button type="submit" class="search-btn">
+        <img src="magnify.svg" />
+      </button>
+    </form>
+    <div class="menu-icons">
+      <a href="#">
+        <img src="video-plus.svg" alt="Upload Video" />
+      </a>
+      <a href="#">
+        <img src="apps.svg" alt="Apps" />
+      </a>
+      <a href="#">
+        <img src="bell.svg" alt="Notifications" />
+      </a>
+      <a href="#">
+        <img class="menu-channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu9S_O2u4hKBOR-Wf3lp6yqkfpwIOEztgvdwCThZcw=s88-c-k-c0x00ffffff-no-rj" alt="Your Channel" />
+      </a>
+    </div>
+  </header>
+  <div class="categories">
+    <section class="category-section">
+      <button class="category active">Todos</button>
+      <button class="category">CSS</button>
+      <button class="category">Front-End</button>
+      <button class="category">Turma 1</button>
+      <button class="category">Javascript</button>
+      <button class="category">Educação</button>
+      <button class="category">Programação</button>
+      <button class="category">Alura</button>
+      <button class="category">Proa</button>
+      <button class="category">HTML5</button>
+    </section>
+  </div>
+  <div class="videos">
+ 
+    <section class="video-section">
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="12:24">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/2hIrbnVx4k4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuadOPP-sDQdgi2g5ehOAWYvx8sA" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/g083wpJ8yJ9YaYDmI-xK_xPiMtQKVssUzS9MkPasj7hp4KvAO_TXr7MHhYQzOfv0XOyhoLXIZA=s48-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Stephen Curry's AMAZING Top 30 Plays!!!</a>
+            <a href="#" class="video-channel-name">NBA</a>
+            <div class="video-metadata">
+              <span>129K views</span>
+              •
+              <span>1 Semena Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="12:24">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/2hIrbnVx4k4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuadOPP-sDQdgi2g5ehOAWYvx8sA" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/g083wpJ8yJ9YaYDmI-xK_xPiMtQKVssUzS9MkPasj7hp4KvAO_TXr7MHhYQzOfv0XOyhoLXIZA=s48-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Stephen Curry's AMAZING Top 30 Plays!!!</a>
+            <a href="#" class="video-channel-name">NBA</a>
+            <div class="video-metadata">
+              <span>129K views</span>
+              •
+              <span>1 Semena Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="12:24">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/2hIrbnVx4k4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuadOPP-sDQdgi2g5ehOAWYvx8sA" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/g083wpJ8yJ9YaYDmI-xK_xPiMtQKVssUzS9MkPasj7hp4KvAO_TXr7MHhYQzOfv0XOyhoLXIZA=s48-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Stephen Curry's AMAZING Top 30 Plays!!!</a>
+            <a href="#" class="video-channel-name">NBA</a>
+            <div class="video-metadata">
+              <span>129K views</span>
+              •
+              <span>1 Semena Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="12:24">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/2hIrbnVx4k4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCuadOPP-sDQdgi2g5ehOAWYvx8sA" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/g083wpJ8yJ9YaYDmI-xK_xPiMtQKVssUzS9MkPasj7hp4KvAO_TXr7MHhYQzOfv0XOyhoLXIZA=s48-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Stephen Curry's AMAZING Top 30 Plays!!!</a>
+            <a href="#" class="video-channel-name">NBA</a>
+            <div class="video-metadata">
+              <span>129K views</span>
+              •
+              <span>1 Semena Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="2:33">
+          <img class="thumbnail-image" src="https://i.ytimg.com/vi/ewgCqJDI_Nk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBQj34dAxi4c1EkjaYpoMjohOoOOw" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="https://yt3.ggpht.com/Ya0u1RBj_Y7-cRW2noCp6I1spc5ihNcv4tMlV6HI78v04r3v37gf89icGoSeaRKc6s0ftPEgsg=s68-c-k-c0x00ffffff-no-rj" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">The Lord of the Rings: The Rings of Power – Main Teaser | Prime Video</a>
+            <a href="#" class="video-channel-name">Prime Video</a>
+            <div class="video-metadata">
+              <span>202K views</span>
+              •
+              <span>2 Meses Atrás</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    
+  </div>
+</body>
+</html>
